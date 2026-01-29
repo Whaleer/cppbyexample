@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>C++ by Example</title>
+    <link rel=stylesheet href="site.css">
+  </head>
+  <body>
+    <div id="intro">
+      <h2><a href="./">C++ by Example</a></h2>
+      <p>
+        欢迎来到 <a href="https://en.cppreference.com">C++</a> 的世界！🚀
+        这是一门强大的通用编程语言，由 <strong>Bjarne Stroustrup</strong>
+        在 C 语言的基础上精心打造而成。它既有 C 的高效性能，
+        又增添了面向对象、泛型编程等现代特性，是系统编程、游戏开发、
+        高性能计算等领域的首选语言之一。
+        想深入了解 C++ 的代码、工具和标准库？
+        快去看看<a href="https://en.cppreference.com/w/cpp">官方文档</a>吧！
+      </p>
+
+      <p>
+        <em>C++ by Example</em> 是一个生动有趣的 C++ 学习之旅！✨
+        我们相信最好的学习方式就是<strong>亲手实践</strong>，
+        所以准备了一系列带详细中文注释的示例程序，
+        让你从第一行代码开始，一步步掌握 C++ 的精髓。
+        不如从<a href="01-hello-world.html">第一个示例</a>开始你的冒险，
+        或者在下面的列表中探索更多有趣的例子吧！
+      </p>
+
+      <ul>
+      {{range .}}
+        <li><a href="{{.ID}}.html">{{.Name}}</a></li>
+      {{end}}
+      </ul>
+{{ template "footer" }}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+paths=$(ls examples/*/*.cpp)
+
+for path in $paths; do
+  clang-format -i "$path"
+done

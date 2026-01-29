@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Sanity testing of the C++ examples.
+
+set -eo pipefail
+
+# g++ will attempt to compile each example, making sure it compiles.
+# We use -fsyntax-only to check syntax without generating object files.
+find examples -name "*.cpp" -exec g++ -std=c++11 -fsyntax-only {} \;
