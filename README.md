@@ -50,6 +50,8 @@ tools/serve
 
 Go by Example 的著作权归 [Mark McGranaghan](https://markmcgranaghan.com) 和 [Eli Bendersky](https://eli.thegreenplace.net) 所有。
 
+本项目在此基础上的改写、翻译和新增内容（包括 C++ 示例和文档），除非另有说明，均依据 CC BY-NC-SA 3.0 协议发布。
+
 ## 参考资源
 
 - [Go by Example](https://gobyexample.com) - 原始项目
